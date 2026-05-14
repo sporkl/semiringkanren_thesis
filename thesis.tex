@@ -642,7 +642,7 @@ Here, both \(\alpha\) and \(\beta\) are mapped to \(\texttt{(Sum Unit Unit)}\) w
 We present one more example:
 \begin{equation}
 \begin{aligned}
-	& \texttt{(two-valued (\(x : \alpha\))} \\
+	& \texttt{(defrel (two-valued (\(x : \alpha\)))} \\
 	& \quad \texttt{(fresh ((\(y : \alpha\)))} \\
 	& \quad \quad \texttt{(=/= \(x\) \(y\))))}
 \end{aligned}
@@ -1073,7 +1073,7 @@ For \(\texttt{sum-swap}\), we have determined that we can reproduce a call with 
 Now we aim to do the same for \(\texttt{two-valued}\):
 \begin{equation}
 \begin{aligned}
-	& \texttt{(two-valued (\(x : \alpha\))} \\
+	& \texttt{(defrel (two-valued (\(x : \alpha\)))} \\
 	& \quad \texttt{(fresh ((\(y : \alpha\)))} \\
 	& \quad \quad \texttt{(=/= \(x\) \(y\))))}
 \end{aligned}
